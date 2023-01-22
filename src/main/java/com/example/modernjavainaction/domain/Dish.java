@@ -1,4 +1,4 @@
-package com.example.modernjavainaction;
+package com.example.modernjavainaction.domain;
 
 public class Dish {
     private final String name;
@@ -30,4 +30,9 @@ public class Dish {
     }
 
     public enum Type { MEAT, FISH, OTHER }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

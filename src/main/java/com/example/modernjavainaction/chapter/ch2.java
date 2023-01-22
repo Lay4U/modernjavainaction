@@ -1,8 +1,7 @@
-package com.example.modernjavainaction.ch1;
+package com.example.modernjavainaction.chapter;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.beans.EventHandler;
+import com.example.modernjavainaction.domain.Apple;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -13,8 +12,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.function.Predicate;
 
-import static com.example.modernjavainaction.ch1.ch2.Color.GREEN;
-import static com.example.modernjavainaction.ch1.ch2.Color.RED;
+import static com.example.modernjavainaction.chapter.ch2.Color.GREEN;
+import static com.example.modernjavainaction.chapter.ch2.Color.RED;
 
 public class ch2 {
     public enum Color { RED, GREEN }

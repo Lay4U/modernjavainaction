@@ -1,6 +1,6 @@
-package com.example.modernjavainaction.ch3;
+package com.example.modernjavainaction.chapter;
 
-import com.example.modernjavainaction.ch1.Apple;
+import com.example.modernjavainaction.domain.Apple;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,9 +11,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.*;
 
-import static com.example.modernjavainaction.ch1.ch2.Color;
-import static com.example.modernjavainaction.ch1.ch2.Color.GREEN;
-import static com.example.modernjavainaction.ch1.ch2.Color.RED;
+import static com.example.modernjavainaction.chapter.ch2.Color;
+import static com.example.modernjavainaction.chapter.ch2.Color.GREEN;
+import static com.example.modernjavainaction.chapter.ch2.Color.RED;
 import static java.util.Comparator.comparing;
 
 public class ch3 {

@@ -1,4 +1,6 @@
-package com.example.modernjavainaction;
+package com.example.modernjavainaction.chapter;
+
+import com.example.modernjavainaction.domain.Dish;
 
 import java.util.*;
 

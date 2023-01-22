@@ -1,6 +1,6 @@
-package com.example.modernjavainaction.ch1;
+package com.example.modernjavainaction.domain;
 
-import com.example.modernjavainaction.ch1.ch2.Color;
+import com.example.modernjavainaction.chapter.ch2.Color;
 
 public class Apple {
     private String color;
