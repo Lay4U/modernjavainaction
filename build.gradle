@@ -14,8 +14,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-integration'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.openjdk.jmh:jmh-core:1.35'
+
 }
 
 tasks.named('test') {

@@ -169,12 +169,12 @@ public class ch5 {
     Trader brian = new Trader("Brian", "Cambridge");
 
     List<Transaction> transactions = Arrays.asList(
-            new Transaction(brian, 2011, 300),
-            new Transaction(raoul, 2012, 1000),
-            new Transaction(raoul, 2011, 400),
-            new Transaction(mario, 2012, 710),
-            new Transaction(mario, 2012, 700),
-            new Transaction(alan, 2012, 950)
+            new Transaction(brian, 2011, 300, "USD"),
+            new Transaction(raoul, 2012, 1000, "USD"),
+            new Transaction(raoul, 2011, 400, "USD"),
+            new Transaction(mario, 2012, 710, "USD"),
+            new Transaction(mario, 2012, 700, "USD"),
+            new Transaction(alan, 2012, 950, "USD")
     );
 
     public void practice() {
