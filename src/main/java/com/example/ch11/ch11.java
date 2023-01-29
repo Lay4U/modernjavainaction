@@ -37,7 +37,7 @@ public class ch11 {
 //        return insurance.getName();
 //    }
 
-    public void Optional적용패턴(){
+    public void Optional_pattern(){
         Car car = new Car();
         Optional<Car> optCar = Optional.empty();
         Optional<Car> optCar2 = Optional.of(car);
@@ -120,7 +120,7 @@ public class ch11 {
     }
 
 
-    class Optional을사용한실용예제 {
+    class OptionalExample {
         Map<String,Object> map = new HashMap<>();
         Optional<Object> value = Optional.ofNullable(map.get("key"));
 
@@ -149,7 +149,7 @@ public class ch11 {
 
     public int readDurationOptional(Properties props, String name){
         return Optional.ofNullable(props.getProperty(name))
-                .flatMap(Optional을사용한실용예제::stringToInt)
+                .flatMap(OptionalExample::stringToInt)
                 .filter(i -> i > 0)
                 .orElse(0);
     }
